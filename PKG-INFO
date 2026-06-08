@@ -1,0 +1,17 @@
+Metadata-Version: 2.4
+Name: insurance-ml-pipeline
+Version: 1.0.0
+Summary: Modular ML pipeline for medical insurance premium prediction: feature engineering, model comparison, stacked ensembling, Bayesian tuning, SHAP explainability and quantile uncertainty.
+Requires-Python: >=3.10
+Description-Content-Type: text/markdown
+Requires-Dist: numpy
+Requires-Dist: pandas
+Requires-Dist: scikit-learn
+Requires-Dist: xgboost
+Requires-Dist: lightgbm
+Requires-Dist: optuna
+Requires-Dist: shap
+Requires-Dist: scipy
+Requires-Dist: matplotlib
+Requires-Dist: seaborn
+Requires-Dist: joblib

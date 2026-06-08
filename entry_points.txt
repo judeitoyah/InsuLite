@@ -1,0 +1,2 @@
+[console_scripts]
+insurance-ml = insurance_ml.cli:main

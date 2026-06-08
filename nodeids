@@ -1,0 +1,8 @@
+[
+  "tests/test_features.py::test_base_feature_list_includes_region_dummies",
+  "tests/test_features.py::test_feature_selection_returns_consistent_subsets",
+  "tests/test_features.py::test_interaction_features_match_hand_computation",
+  "tests/test_preprocessing.py::test_add_log_target_is_log1p",
+  "tests/test_preprocessing.py::test_encode_categoricals_drops_raw_strings_and_adds_binaries",
+  "tests/test_preprocessing.py::test_scaler_round_trips_to_zero_mean_unit_variance"
+]

@@ -1,0 +1,29 @@
+[build-system]
+requires = ["setuptools>=68", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "insurance-ml-pipeline"
+version = "1.0.0"
+description = "Modular ML pipeline for medical insurance premium prediction: feature engineering, model comparison, stacked ensembling, Bayesian tuning, SHAP explainability and quantile uncertainty."
+readme = "README.md"
+requires-python = ">=3.10"
+dependencies = [
+    "numpy",
+    "pandas",
+    "scikit-learn",
+    "xgboost",
+    "lightgbm",
+    "optuna",
+    "shap",
+    "scipy",
+    "matplotlib",
+    "seaborn",
+    "joblib",
+]
+
+[project.scripts]
+insurance-ml = "insurance_ml.cli:main"
+
+[tool.setuptools.packages.find]
+where = ["src"]
