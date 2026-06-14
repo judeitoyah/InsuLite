@@ -1,2 +1,30 @@
-# Created by pytest automatically.
-*
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+dist/
+build/
+*.pyc
+
+# Pytest cache
+.pytest_cache/
+nodeids
+CACHEDIR.TAG
+
+# Outputs (generated — not committed)
+outputs/
+
+# Environments
+.env
+.venv/
+venv/
+env/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# IDE
+.idea/
+.vscode/
+
